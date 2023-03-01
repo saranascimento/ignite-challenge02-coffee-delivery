@@ -1,3 +1,5 @@
+import { HeroBanner } from './components/HeroBanner/HeroBanner'
+
 export function Home() {
-  return <h1>Home</h1>
+  return <HeroBanner />
 }
