@@ -5,7 +5,7 @@ export const HeroBannerContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 92px;
+    margin-bottom: 5.75rem;
   }
 `
 
@@ -43,7 +43,7 @@ export const InformationContainer = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 32px;
+  margin-top: 2rem;
 
   @media (min-width: 1024px) {
     margin-top: unset;
@@ -81,7 +81,7 @@ export const InformationContainer = styled.div`
 export const CoffeeImageContainer = styled.div`
   margin: 0 auto;
   width: 100%;
-  max-width: 476px;
+  max-width: 29.75rem;
 
   &.coffee-image-desktop {
     display: none;
