@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const HeroBannerContainer = styled.div`
+  margin-bottom: 2rem;
+
   @media (min-width: 768px) {
     display: flex;
     align-items: center;

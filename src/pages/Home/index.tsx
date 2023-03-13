@@ -1,11 +1,11 @@
-import { HeroBanner } from './components/HeroBanner/HeroBanner'
-import { OurCoffee } from './components/OurCoffee'
+import { HeroBanner } from './components/HeroBanner'
+import { CardCoffeeList } from './components/OurCoffee/CoffeeCardList'
 
 export function Home() {
   return (
     <>
       <HeroBanner />
-      <OurCoffee />
+      <CardCoffeeList />
     </>
   )
 }
