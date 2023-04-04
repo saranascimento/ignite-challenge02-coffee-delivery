@@ -5,7 +5,7 @@ export const CardList = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 54px;
+  margin-top: 3.375rem;
   gap: 2rem;
 
   @media screen and (min-width: 920px) {

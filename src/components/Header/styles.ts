@@ -11,6 +11,7 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
+    z-index: 1;
 
     position: fixed;
     left: 0;
@@ -20,7 +21,7 @@ export const HeaderContainer = styled.header`
     height: 3.5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    background: ${(props) => props.theme.white};
+    background-color: ${(props) => props.theme.white};
     box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
@@ -30,7 +31,7 @@ export const HeaderContainer = styled.header`
       right: 0;
       width: auto;
       height: auto;
-      background: none;
+      background-color: none;
       box-shadow: none;
     }
 
@@ -51,9 +52,9 @@ export const HeaderContainer = styled.header`
       justify-content: center;
       gap: 0.75rem;
 
-      width: 38px;
-      height: 38px;
-      background: ${(props) => props.theme['yellow-300']};
+      width: 2.375rem;
+      height: 2.375rem;
+      background-color: ${(props) => props.theme['yellow-300']};
       border: none;
       border-radius: 6px;
     }

@@ -16,7 +16,7 @@ export const Card = styled.div`
   height: 19.375rem;
 
   text-align: center;
-  background: ${(props) => props.theme['gray-300']};
+  background-color: ${(props) => props.theme['gray-300']};
   border-radius: 6px 36px;
   padding: 1.25rem;
 
@@ -37,7 +37,7 @@ export const CardContent = styled.div`
   margin-top: 0.75rem;
 
   .wrapper-type {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 
     .type {
       padding: 0.25rem 0.5rem;
@@ -47,12 +47,12 @@ export const CardContent = styled.div`
       font-size: 0.625rem;
       line-height: 130%;
       font-style: normal;
-      background: ${(props) => props.theme['yellow-300']};
+      background-color: ${(props) => props.theme['yellow-300']};
       border-radius: 100px;
       margin-bottom: 1rem;
 
       &:not(:last-child) {
-        margin-right: 4px;
+        margin-right: 0.25rem;
       }
     }
   }
@@ -95,7 +95,7 @@ export const PriceByQuantity = styled.div`
   .amount {
     width: 4.5rem;
     height: 2.375rem;
-    background: #e6e5e5;
+    background-color: ${(props) => props.theme['gray-400']};
     border-radius: 6px;
     border: none;
     display: flex;
@@ -124,10 +124,10 @@ export const CardFooter = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 0.5rem;
 
   .wrapper-shoppingCart {
-    padding: 8px;
+    padding: 0.5rem;
     background-color: ${(props) => props.theme['purple-700']};
     border-radius: 6px;
     display: flex;
